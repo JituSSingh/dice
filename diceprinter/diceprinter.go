@@ -7,5 +7,5 @@ import (
 )
 
 func PrintRoll(sides int, comment string) {
-	fmt.Println("%s: %d\n", comment, dice.Roll(sides))
+	fmt.Printf("%s: %d\n", comment, dice.Roll(sides))
 }
